@@ -66,3 +66,56 @@ print('-----Assignment Operators---------')
 # //= → Floor divides and assigns  
 # %=  → Modulus and assigns (remainder)  
 # **= → Power and assigns (exponent)  
+
+a=3 
+print(a) #3
+
+a += 3
+print(a) #3+3=6
+
+a -= 3
+print(a) #6-3=3
+
+a *= 3
+print(a) #3*3=9
+
+a /= 3
+print(a) #9/3=3.0
+
+print('-----Identity  Operators---------')
+
+# * `is` → checks if two variables refer to the **same object in memory**
+# * `is not` → checks if two variables refer to **different objects**
+# * `==` → checks if two variables have the **same value**
+# * Same value ≠ same object (don’t confuse `==` with `is`)
+# * Use `is` only for **`None` comparison** (`x is None`)
+# * Never use `is` for comparing numbers, strings, or lists
+# * Python may reuse objects (interning), so `is` can be **unpredictable for values**
+# * `is` → identity check, `==` → value check
+# * Two variables can look identical but still be **different objects**
+# * Safe rule: **use `==` for data, `is` only for `None`**
+
+# Identity: is, is not
+a=3
+b=6
+print(a is b) #False
+
+b=3
+print(a is b) #True
+
+
+print('-----Membership  Operators---------')
+# * `in` → checks if an element **exists inside a collection**
+# * `not in` → checks if an element **does NOT exist in a collection**
+# * Works with lists, tuples, sets, strings, and dictionaries
+# * For lists/tuples → checks **value presence**
+# * For strings → checks **substring presence**
+# * For dictionaries → checks **keys only (not values)**
+# * `x in dict` → checks key, not value
+# * To check value in dict → use `x in dict.values()`
+# * Membership returns **True or False**
+# * Faster in sets/dicts, slower in lists (due to search time)
+# * Case-sensitive for strings (`"a" in "Apple"` → False)
+# * Safe rule: **use `in` for existence check, not for indexing or position**
+
+
