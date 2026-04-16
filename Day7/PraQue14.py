@@ -1,5 +1,5 @@
 #2 Student marks Dictionnary
-#create dict if student, add a nem student, update mark of exiting student
+#create dict if student, add a new student, update mark of exiting student
 
 student = { "student1": {"name": "Halku", "marks":86},
             "student2": {"name": "spidy", "marks":55},
