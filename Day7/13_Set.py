@@ -36,3 +36,4 @@ print(c^d) #→ symmetric difference → {1,2,4,5}
 #Membership Check (very important)
 if 2 in a:
     print("Yes") #Yes
+
