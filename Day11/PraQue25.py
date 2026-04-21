@@ -16,9 +16,9 @@ def find_word(word):
         if not found:
             print(-1)
 
-find_word(word) #1
-find_word("AI") #2
-find_word("Nitin") #-1
+find_word(word)     #1
+find_word("AI")     #2
+find_word("Nitin")  #-1
             
 
 
