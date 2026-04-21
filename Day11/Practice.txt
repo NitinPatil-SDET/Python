@@ -1,5 +1,5 @@
-Hi everyone, I am learning Java
+Hi everyone, I am learning Python
 For AI/ML Engineer
-Java is very good language
-I love Java
+Python is very good language
+I love Python
 I want to become AI engineer
