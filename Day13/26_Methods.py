@@ -50,3 +50,47 @@ print(Student.greet())
 # | Static Method   | ❌           | ❌          | Utility function      |
 
 
+#----------------------------------------------------------------------------------------------------
+# 🔹 What is @property?
+# Allows you to access a method like an attribute
+# Used to control access to data (getter/setter logic)
+
+class Student:
+    def __init__(self, marks):
+        self._marks = marks   # internal variable
+
+    @property
+    def marks(self):         # getter
+        return self._marks
+
+s = Student(90)
+print(s.marks)   # looks like variable, actually calls method
+
+class Student:
+    def __init__(self, marks):
+        self._marks = marks
+
+    @property
+    def marks(self):
+        return self._marks
+
+    @marks.setter
+    def marks(self, value):
+        if value < 0:
+            print("Invalid marks")
+        else:
+            self._marks = value
+
+s = Student(90)
+s.marks = 80   # setter called
+
+# 🔹 Why Use @property?
+# Hide internal data (_marks)
+# Add validation logic
+# Maintain clean syntax (no need for getMarks())
+
+# @property → use method like attribute (getter)
+# @x.setter → set value with validation
+# @x.deleter → delete attribute
+
+
