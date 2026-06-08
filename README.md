@@ -1,0 +1,95 @@
+# Python Learning Workspace
+
+This workspace contains Python practice exercises and notebooks organized by day and topic.
+
+## Folder Structure
+
+- `Day1`
+  - `1_Print.py`
+  - `2_DataType.py`
+- `Day2`
+  - `3_Variable.py`
+- `Day3`
+  - `4_Keywords.py`
+  - `5_Operators.py`
+- `Day4`
+  - `6_UserInput.py`
+  - `PraQue1.py`
+  - `PraQue2.py`
+  - `PraQue3.py`
+  - `PraQue4.py`
+- `Day5`
+  - `7_Strings1.py`
+  - `8_If_Elif_else.py`
+  - `9_NestingIfElse.py`
+  - `PraQue5.py`
+  - `PraQue6.py`
+  - `PraQue7.py`
+  - `PraQue8.py`
+  - `PraQue9.py`
+- `Day6`
+  - `10_List.py`
+  - `11_Tuples.py`
+  - `PraQue10.py`
+  - `PraQue11.py`
+  - `PraQue12.py`
+- `Day7`
+  - `12_Dictionary.py`
+  - `13_Set.py`
+  - `PraQue13.py`
+  - `PraQue14.py`
+  - `PraQue15.py`
+  - `PraQue16.py`
+- `Day8`
+  - `14_WhileLoop.py`
+  - `15_Break.py`
+  - `16_Continue.py`
+  - `PraQue17.py`
+- `Day9`
+  - `17_ForLoop.py`
+  - `PraQue18.py`
+  - `PraQue19.py`
+- `Day10`
+  - `18_Functions.py`
+  - `19_Recursion.py`
+  - `PraQue20.py`
+  - `PraQue21.py`
+  - `PraQue22.py`
+- `Day11`
+  - `20_FilesIO.py`
+  - `data.txt`
+  - `Practice.txt`
+  - `PraQue23.py`
+  - `PraQue24.py`
+  - `PraQue25.py`
+- `Day12`
+  - `21_OOPs.py`
+  - `22_StaticMethod.py`
+  - `23_Abs&Enc.py`
+  - `PraQue26.py`
+  - `PraQue27.py`
+- `Day13`
+  - `24_Keyword.py`
+  - `25_Inheritance.py`
+  - `26_Methods.py`
+- `Day14`
+  - `DSA_List.ipynb`
+  - `DSA_Searching.ipynb`
+- `Day15`
+  - `DSA_Sorting.ipynb`
+- `Day16`
+  - `DSA_String.ipynb`
+- `Day17`
+  - `DSA_Sets.ipynb`
+- `DSA18`
+  - `DSP_Dictionary.ipynb`
+- `NumPy`
+  - `BasicofNumPy.txt`
+  - `BasicsOfNumPy.ipynb`
+  - `Slicing.ipynb`
+
+## Notes
+
+- Files are grouped by day, following a learning progression from basics to data structures and algorithms.
+- Practice questions are labeled with `PraQue` prefixes.
+- `NumPy` and `DSA` folders contain notebooks and text notes for array and algorithm learning.
